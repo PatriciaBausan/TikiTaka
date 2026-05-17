@@ -14,7 +14,7 @@ Además, cuenta con un panel de administración donde se pueden gestionar produc
 - CSS
 - JavaScript
 
-  ### ¿Por qué estas tecnologías?
+## ¿Por qué estas tecnologías?
 - He elegido estas tecnologías porque son las que conozco actualmente. Estoy dispuesta a aprender otras de cara al futuro.
 
 ## Backend
@@ -25,7 +25,7 @@ Además, cuenta con un panel de administración donde se pueden gestionar produc
 ## Base de Datos
 
 - MySQL
---
+---
 ## Estructura de la base de datos 
 El archivo `sql/BBDD_TikiBocados.sql` crea las siguientes tablas:
 
