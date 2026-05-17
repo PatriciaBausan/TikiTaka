@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/frontend/css/style.css">
+    <script src="/frontend/js/tienda.js" defer></script>
+    <link rel="icon" type="image/png" href="/imagenes/logo1.png" />
+    <title>TIKIBOCADO</title>
+</head>
+
+<body>
+
+    <div class="store-container">
+
+        <header class="store-header">
+            <h1>TIKIBOCADO</h1>
+
+            <p class="header-description">
+                Disfruta de la auténtica experiencia culinaria que te ofrece TIKIBOCADO. Platos elaborados al momento
+                con ingredientes frescos y recetas tradicionales.
+            </p>
+
+            <div class="categorias-container">
+                <span class="categorias-label">Nuestra Carta:</span>
+                <ul class="categorias-lista">
+                    <li>Entrantes</li>
+                    <li>Platos Principales</li>
+                    <li>Postres</li>
+                    <li>Bebidas</li>
+                </ul>
+            </div>
+        </header>
+
+        <h2 class="section-title">Carta</h2>
+
+        <table class="productos-tabla">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Imagen</th>
+                    <th>Categoría</th>
+                    <th>Stock</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="producto-tbody">
+            </tbody>
+        </table>
+
+        <h2 class="section-title">Carrito</h2>
+
+        <div id="carrito" class="carrito-contenedor">
+        </div>
+
+        <button class="btn-finalizar" onclick="finalizarCompra()">
+            Finalizar Compra
+        </button>
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="contacto">
+                <h3>Contacto</h3>
+                <p>Email: <a href="mailto:TikiBocado@gmail.com">TikiBocado@gmail.com</a></p>
+                <p>Teléfono: <a href="tel:+34656504239">+34 656 50 42 39</a></p>
+            </div>
+
+            <div class="redes-sociales">
+                <h3>Síguenos</h3>
+                <a href="https://www.instagram.com/TikiBocado" target="_blank" rel="noopener noreferrer"
+                    class="social-link">Instagram</a>
+                <a href="https://www.tiktok.com/@TikiBocado" target="_blank" rel="noopener noreferrer"
+                    class="social-link">TikTok</a>
+            </div>
+        </div>
+
+        <div class="footer-derechos">
+            <p>2026 TIKIBOCADO. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

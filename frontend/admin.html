@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/frontend/css/admin.css">
+    <script src="/frontend/js/admin.js" defer></script>
+    <link rel="icon" type="image/png" href="/imagenes/logo1.png" />
+    <title>TIKIBOCADO ADMINISTRADICIÓN</title>
+</head>
+
+<body>
+
+    <h1>Panel de Administración</h1>
+
+    <h2>Crear Producto</h2>
+
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="number" id="precio" placeholder="Precio">
+    <input type="text" id="imagen" placeholder="Imagen">
+    <input type="number" id="categoria_id" placeholder="Categoría">
+    <input type="number" id="stock" placeholder="Stock">
+
+    <button id="guardar-btn">
+        Guardar Producto
+    </button>
+
+    <hr>
+
+    <h2>Lista de Productos</h2>
+
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Imagen</th>
+                <th>Categoría</th>
+                <th>Stock</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+
+        <tbody id="producto-tbody">
+
+        </tbody>
+
+    </table>
+
+    <hr>
+
+    <h2>Pedidos</h2>
+
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Email</th>
+                <th>Total</th>
+                <th>Fecha</th>
+            </tr>
+        </thead>
+
+        <tbody id="pedidos-tbody">
+
+        </tbody>
+
+    </table>
+
+    <hr>
+
+    <h2>Top 3 Productos Más Rentables</h2>
+
+    <ul id="top-productos">
+
+    </ul>
+
+</body>
+
+</html>
