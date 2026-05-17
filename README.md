@@ -65,7 +65,7 @@ CREATE TABLE detalles_pedido (
     FOREIGN KEY (pedido_id) REFERENCES pedidos(id),
     FOREIGN KEY (producto_id) REFERENCES productos(id)
 );
-
+````
 ---
 
 # Funcionalidades
