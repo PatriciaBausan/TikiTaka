@@ -379,3 +379,8 @@ body {
     opacity: 0.6;
     letter-spacing: 0.5px;
 }
+@media (max-width: 600px) {
+  html {
+    font-size: 14px; 
+  }
+}

@@ -192,3 +192,8 @@ td button:hover {
     height: 100%;
     background-color: var(--gold);
 }
+@media (max-width: 600px) {
+  html {
+    font-size: 14px; 
+  }
+}
