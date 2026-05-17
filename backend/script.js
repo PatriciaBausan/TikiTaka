@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 app.use('/imagenes', express.static(path.join(__dirname, '../imagenes')));
 // app.use('/imagenes', express.static('C:/xampp/htdocs/TikiTaka/imagenes'));
-app.use(express.static('C:/xampp/htdocs/TikiTaka'));
+// app.use(express.static('C:/xampp/htdocs/TikiTaka'));
 
 
 // Obtiene los productos
