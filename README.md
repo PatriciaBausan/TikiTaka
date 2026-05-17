@@ -1,7 +1,6 @@
 # TikiBocado - E-commerce Restaurante
 
-TikiBocado está desarrollada como una tienda e-commerce de restaurante.  
-Permite visualizar productos de comida, añadirlos a un carrito de compra y realizar pedidos simulados.  
+TikiBocado está desarrollada como una tienda e-commerce de restaurante. Permite visualizar productos de comida, añadirlos a un carrito de compra y realizar pedidos simulados.  
 
 Además, cuenta con un panel de administración donde se pueden gestionar productos, visualizar pedidos y consultar estadísticas de ventas.
 
@@ -11,9 +10,9 @@ Además, cuenta con un panel de administración donde se pueden gestionar produc
 
 ## Frontend
 
-- HTML5
-- CSS3
-- JavaScript Vanilla
+- HTML
+- CSS
+- JavaScript 
 
 ## Backend
 
@@ -51,13 +50,14 @@ Además, cuenta con un panel de administración donde se pueden gestionar produc
 TIKITAKA
 |
 |-backend
-|   |-admin.html
-|   |-index.html
 |   |-db.js
+|   |-script.js
 |   |-package-lock.json
 |   |-package.json
 |
 |-frontend
+|   |-admin.html
+|   |-index.html
 |   |-css
 |   |   |-admin.css
 |   |   |-style.css
