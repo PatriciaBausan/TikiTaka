@@ -1,6 +1,6 @@
 # TikiBocado - E-commerce Restaurante
 
-TikiBocado es desarrollada como una tienda e-commerce de restaurante.  
+TikiBocado está desarrollada como una tienda e-commerce de restaurante.  
 Permite visualizar productos de comida, añadirlos a un carrito de compra y realizar pedidos simulados.  
 
 Además, cuenta con un panel de administración donde se pueden gestionar productos, visualizar pedidos y consultar estadísticas de ventas.
@@ -50,15 +50,14 @@ Además, cuenta con un panel de administración donde se pueden gestionar produc
 ```bash
 TIKITAKA
 |
-|-backend 
+|-backend
+|   |-admin.html
+|   |-index.html
 |   |-db.js
-|   |-script.js
 |   |-package-lock.json
 |   |-package.json
 |
 |-frontend
-|   |-admin.html
-|   |-index.html
 |   |-css
 |   |   |-admin.css
 |   |   |-style.css
@@ -71,36 +70,72 @@ TIKITAKA
 |
 |-sql
 |   |-BBDD_TikiBocados.sql
-Instalación del Proyecto
-1. Inicializar proyecto Node.js
-bash
+````
+
+---
+
+# Instalación del Proyecto
+
+## 1. Inicializar proyecto Node.js
+
+```bash
 npm init -y
-2. Instalar dependencias
-Instalar Express
-bash
+```
+
+---
+
+## 2. Instalar dependencias
+
+### Instalar Express
+
+```bash
 npm install express
-Instalar MySQL
-bash
+```
+
+### Instalar MySQL
+
+```bash
 npm install mysql2
-Crear Base de Datos
+```
+
+---
+
+# Crear Base de Datos
+
 La base de datos ha sido desarrollada utilizando MySQL Workbench.
 
 Ejecutar el archivo:
 
-bash
+```bash
 BBDD_TikiBocados.sql
-Ejecutar Servidor
-bash
+```
+
+---
+
+# Ejecutar Servidor
+
+```bash
 node script.js
-Servidor Disponible
-bash
+```
+
+---
+
+# Servidor Disponible
+
+```bash
 http://localhost:3000
-Seguridad y Validaciones
-Verificación de stock
+```
 
-Control de errores en pedidos
+---
 
-Consultas seguras a MySQL
+# Seguridad y Validaciones
 
-Autor
-Patricia Bausan Gómez
+* Verificación de stock
+* Control de errores en pedidos
+* Consultas seguras a MySQL
+
+---
+
+# Autor
+
+* Patricia Bausan Gómez
